@@ -22,4 +22,7 @@ class School
   #   roster.each_value{|grade| grade.sort}
   # end
 
+  def roster
+    roster
+  end
 end
