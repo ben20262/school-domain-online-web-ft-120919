@@ -18,6 +18,10 @@ class School
     roster[grade]
   end
 
+  def sort
+    roster.each {|grade| grade.sort}
+  end
+
   def roster
     roster
   end
